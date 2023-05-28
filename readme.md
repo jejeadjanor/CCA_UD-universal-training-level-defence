@@ -46,5 +46,5 @@ More details please check our paper.
 
 ## Running test code
 ```
-python -m ECOC.gtsrb.JMA_GTSRB -s 0.5 -i 100
+python CCA-UD.py
 ```
