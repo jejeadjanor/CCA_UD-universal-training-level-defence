@@ -26,7 +26,7 @@ conda activate CCAUD_env
 ~~~
 
 ## Backdoored model and corresponding features of poisoned data
-Please download the feature hdf5 and model file from this link https://drive.google.com/file/d/1a8P5RzAIqeOC8XPHc2hDXSBePFlJo18Q/view?usp=sharing
+Please download the feature hdf5 and model file from this link https://drive.google.com/file/d/1MZNwRpNsFA3-Ha8qk1hm2hfWSrW0r1Uy/view?usp=sharing
 
 After unzip files into 'feature_and_model' folder, you could find three sub-folders
 
