@@ -129,12 +129,17 @@ def plot_figures(clust, normalized_feature, ground_truth, predition, cluster_ent
 
 
 def validation_ave_feature(hdf5_file, model_file, ave_feature, target_class, class_num=10):
-    device = torch.device("cuda")
+    # Check if CUDA is available; otherwise, use CPU
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")  # Debugging output
     model = Net()
 
     model.load_state_dict(
-        torch.load(model_file, map_location='cpu')['model']
+        # torch.load(model_file, map_location='cpu')['model']
+        torch.load(model_file, map_location='cpu', weights_only=False)['model']
+
     )
+    # Move model to the appropriate device
     model.to(device)
     model.eval()
     # load validation dataset of feature

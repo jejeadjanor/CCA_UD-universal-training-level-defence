@@ -50,23 +50,23 @@ dependencies:
     - contourpy==1.0.7
     - cycler==0.11.0
     - fonttools==4.39.4
-    - h5py==3.8.0
+    - h5py-3.12.1
     - importlib-metadata==6.6.0
     - importlib-resources==5.12.0
     - joblib==1.2.0
     - kiwisolver==1.4.4
-    - llvmlite==0.40.0
+    - llvmlite==0.44.0
     - matplotlib==3.7.1
-    - numba==0.57.0
+    - numba==0.61.0
     - packaging==23.1
     - pynndescent==0.5.10
     - pyparsing==3.0.9
     - python-dateutil==2.8.2
-    - scikit-learn==1.2.2
-    - scipy==1.10.1
+    - scikit-learn==1.6.1
+    - scipy==1.15.1
     - six==1.16.0
     - sklearn==0.0.post5
-    - threadpoolctl==3.1.0
+    - threadpoolctl==3.5.0
     - torch==1.8.0+cu111
     - torchaudio==0.8.0
     - torchvision==0.9.0+cu111
